@@ -1,0 +1,113 @@
+.header {
+  background-image: url(../assents/orqaFon.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 707px;
+    margin-bottom: 155px;
+  }
+
+  &__nomber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #ffffff;
+  }
+
+  &__welcome {
+    margin-left: 370px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #747d81;
+  }
+
+  &__title {
+    margin-left: 370px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 108px;
+    line-height: 132px;
+    background: linear-gradient(180deg, #ffffff 31.75%, #1a3031 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  &__text {
+    margin-left: 370px;
+    margin-bottom: 77px;
+    width: 580px;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+
+  &__info {
+    margin-left: 370px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__Rtitle {
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 750;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+
+  &__img {
+    margin-bottom: 100px;
+  }
+
+  &__Rtext {
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 750;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4abcec;
+    width: 452px;
+    margin-bottom: 101px;
+  }
+
+  &__btn {
+    margin-left: 370px;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 750;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: linear-gradient(
+      180deg,
+      rgba(3, 225, 255, 0.66) 0%,
+      #13cdc2 100%
+    );
+    box-shadow: 0px 7px 20px -7px #00e0ff;
+    border-radius: 9px;
+    border: none;
+    padding: 22px 13px;
+    margin-bottom: 178px;
+  }
+}
