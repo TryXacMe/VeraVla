@@ -1,0 +1,119 @@
+.reasons {
+  &__container {
+    padding: 40px;
+    background: radial-gradient(circle, #021f28 20%, #05131a 100%);
+    outline-offset: -20px;
+    box-shadow: inset 0 0 30px rgba(0, 210, 255, 0.1);
+  }
+
+  &__title {
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 54px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 880px;
+    padding-top: 124px;
+    padding-left: 360px;
+    padding-bottom: 58px;
+  }
+
+  &__span {
+    color: #4abcec;
+  }
+
+  &__Tboxs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__Tbox {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 224, 255, 0.11) 0%,
+      rgba(0, 224, 255, 0.0539) 100%
+    );
+    border-radius: 20px;
+    padding-left: 42px;
+    padding-top: 36px;
+    padding-bottom: 51px;
+    padding-right: 38px;
+  }
+
+  &__Ttext {
+    margin-top: 15px;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    width: 180px;
+  }
+
+  &__Bboxs {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+  }
+
+  &__Bbox {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 224, 255, 0.11) 0%,
+      rgba(0, 224, 255, 0.0539) 100%
+    );
+    border-radius: 20px;
+  }
+
+  &__box1 {
+    width: 320px;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    padding-top: 44px;
+    padding-left: 42px;
+    padding-bottom: 38px;
+    padding-right: 40px;
+    margin-top: 12px;
+  }
+
+  &__box2 {
+    width: 350px;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    padding-top: 37px;
+    padding-left: 42px;
+    padding-bottom: 32px;
+    padding-right: 40px;
+    margin-top: 12px;
+  }
+
+  &__box3 {
+    width: 399px;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    padding-top: 44px;
+    padding-left: 42px;
+    padding-bottom: 38px;
+    padding-right: 40px;
+    margin-top: 12px;
+  }
+}
